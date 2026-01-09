@@ -147,4 +147,4 @@ $$\frac{\zeta_\oplus}{\zeta_{void}} = \frac{2.75 \times 10^{-40}}{8.35 \times 10
 
 Result:
 Time flows $10^{30}$ times more "smoothly" (less drag) in a void than on Earth.
-This immense disparity proves why the Void Craft requires a bubble; the friction differential would shear any material object apart instantly without the buffer zone.
+This immense disparity proves the friction differential would shear any material object apart instantly without a buffer zone.

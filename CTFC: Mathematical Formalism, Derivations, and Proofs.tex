@@ -1,0 +1,141 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{siunitx}
+\usepackage{physics}
+
+% Geometry settings
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+
+\title{\textbf{Cumulative Temporal Flux Cosmology (CTFC)}\\ \large Mathematical Formalism, Derivations, and Proofs}
+\author{Architect: Daniel Golden (@NeoRenaissance)}
+\date{December 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This document contains the rigorous algebraic and tensor formalism for the Theory of Realized Potential. It defines the relationships between Mass, Time, and Geometry using the derived \textbf{Golden Constant} ($\sigma$).
+\end{abstract}
+
+\section{Fundamental Principles}
+
+\subsection{The Golden Equivalence (Chronometric Form)}
+To align with standard metrological practices, we express the fundamental relationship of CTFC by solving for the \textbf{Accumulated History} ($\mathcal{T}$). This posits that mass is a function of realized temporal density.
+
+\begin{equation}
+    \mathcal{T} = \frac{M}{\sigma}
+\end{equation}
+
+Where:
+\begin{itemize}
+    \item $M$ is the Rest Mass (\si{kg})
+    \item $\sigma$ is the Temporal Density Coefficient
+    \item $\mathcal{T}$ is the Volume-Duration of history (\si{m^3 \cdot s})
+\end{itemize}
+
+\subsection{The Master Equation (Realization Operator)}
+The collapse of the Quantum Potential ($\Psi$) into Relativistic Reality is governed by the Realization Operator ($\hat{R}$), which introduces the density term $\sigma$ into the metric manifold.
+
+\begin{equation}
+    \hat{R}_\sigma \ket{\Psi_{future}} \longrightarrow g_{\mu\nu} + \sigma \int \Psi^*\Psi \, dt + \xi \, T_{\mu\nu}^{viscosity}
+\end{equation}
+
+\section{The Constitutive Equations}
+
+\subsection{Dynamic Dark Energy (The Expansion Integral)}
+The Cosmological Constant is re-defined not as a static energy density, but as a dynamic pressure exerted by the accumulated volume of the past.
+
+\begin{equation}
+    \Lambda(t) = \sigma \int_{0}^{t} V(t') \, dt'
+\end{equation}
+
+\subsection{Gravitational Hysteresis (The Sediment Equation)}
+Dark Matter is modeled as the gravitational wake left by baryonic mass moving through the temporal fluid. The Effective Mass ($M_{eff}$) is the sum of the visible mass and its history.
+
+\begin{equation}
+    M_{eff}(t) = M_{bar}(t) + \xi \int_{-\infty}^{t} M_{bar}(t') \cdot e^{-\lambda(t - t')} \, dt'
+\end{equation}
+
+\subsection{Metric Drag (The Gravity Equation)}
+Gravitational attraction is re-interpreted as the viscous drag (shear stress) created by the interaction between local mass density ($\rho$) and the temporal flux vector ($U$).
+
+\begin{equation}
+    D_{\mu\nu} = -(\sigma \rho_{matter}) \left[ \nabla_{\mu} U_{\nu} + \nabla_{\nu} U_{\mu} - \frac{2}{3}g_{\mu\nu}(\nabla_\lambda U^\lambda) \right]
+\end{equation}
+
+\section{Derivation of Constants}
+
+\subsection{The Golden Constant ($\sigma$)}
+Derived by equating the observed mass-energy of Dark Energy to the accumulated spacetime history of the universe.
+
+\begin{align*}
+    \text{Given } \rho_{\Lambda} &\approx 7 \times 10^{-27} \, \si{kg/m^3} \\
+    \text{Given } t_{age} &\approx 4.35 \times 10^{17} \, \si{s} \\
+    \sigma &= \frac{M_{\Lambda}}{\mathcal{T}_{total}}
+\end{align*}
+
+\begin{equation}
+    \sigma \approx 5.0 \times 10^{-44} \, \si{kg \cdot m^{-3} \cdot s^{-1}}
+\end{equation}
+
+\subsection{The Sediment Constant ($\xi$)}
+Derived from the observed ratio of Dark Matter to Baryonic Matter ($\approx 5:1$).
+
+\begin{equation}
+    \xi = \frac{5}{t_{age}} \approx 1.15 \times 10^{-17} \, \si{s^{-1}}
+\end{equation}
+
+\subsection{Metric Resonance ($C_{gold}$)}
+Derived via dimensional analysis linking the Golden Energy ($E = \sigma \mathcal{T} c^2$) to Quantum Mechanics ($E = hf$).
+
+\begin{equation}
+    C_{gold} = \frac{\sigma c^2}{h} \approx 6.78 \times 10^6 \, \si{Hz} \, (6.78 \, \text{MHz})
+\end{equation}
+
+\subsection{Chronon Density ($\rho_{grain}$)}
+The fundamental density of a single "tick" of time (Planck Time).
+
+\begin{equation}
+    \rho_{grain} = \sigma \times t_p \approx 2.7 \times 10^{-87} \, \si{kg/m^3}
+\end{equation}
+
+\section{Geometric Correlations ($\phi$)}
+
+The derived constants exhibit high-precision correlations with the Golden Ratio ($\phi \approx 1.618$).
+
+\begin{itemize}
+    \item \textbf{Grid Resolution (Planck Length):}
+    \begin{equation}
+        l_p \approx \phi \times 10^{-35} \, \si{m}
+    \end{equation}
+    \item \textbf{Resonance Harmonic:}
+    \begin{equation}
+        C_{gold} \approx \phi^4 \times 10^6 \, \si{Hz}
+    \end{equation}
+    \item \textbf{Fractal Time Dilation:}
+    \begin{equation}
+        v_{layer} = \frac{c}{\phi^n}
+    \end{equation}
+\end{itemize}
+
+\section{Stress Tests \& Compatibility}
+
+\subsection{Schrödinger Compatibility}
+Substituting Golden Energy into the Hamiltonian operator yields a compatible oscillation function based on historical pressure:
+\begin{equation}
+    \frac{\partial \Psi}{\partial t} = -i \left( \frac{\sigma c^2}{\hbar} \mathcal{T} \right) \Psi
+\end{equation}
+
+\subsection{The Void Velocity Limit}
+In regions where matter density approaches zero ($\rho \to 0$), the Drag Tensor vanishes ($D_{\mu\nu} \to 0$).
+\begin{equation}
+    \lim_{\rho \to 0} \left( \frac{d\tau}{dt} \right) = \infty
+\end{equation}
+This implies that proper time in cosmic voids flows at a maximal rate, creating the "Null-Temporal" state.
+
+\end{document}

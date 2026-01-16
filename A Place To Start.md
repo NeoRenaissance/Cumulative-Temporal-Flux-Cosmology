@@ -163,6 +163,22 @@ Equation: $M_{eff} \approx M_{bar} + (M_{bar} \cdot \xi \cdot t_{age})$
 
 Result: Predicts a Dark Matter to Baryonic Matter ratio of 5.7 to 1, validating the Gravitational Hysteresis theory against observation.
 
+6. THE DECAY FACTOR ($\lambda$) SOLUTION
+
+Problem: What determines the fade rate of the gravitational wake?
+
+Hypothesis: The wake is diluted by the expansion of the universe.
+
+Equation: $\lambda \approx H_0$ (Hubble Expansion Rate).
+
+Calculation: $H_0 \approx 70 \text{ km/s/Mpc} \approx 2.3 \times 10^{-18} \text{ s}^{-1}$.
+
+Result: $\lambda \approx 2.3 \times 10^{-18} \text{ s}^{-1}$.
+
+Interpretation: The wake persists for the lifespan of the universe, decaying only as space itself stretches. This slow decay ($\lambda \ll \xi$) allows for the massive accumulation of "Dark Matter" halos over billions of years.
+
+
+
 APPENDIX E: DEEP TISSUE STRESS TESTS
 
 TEST 1: THE SCHRÖDINGER COMPATIBILITY
